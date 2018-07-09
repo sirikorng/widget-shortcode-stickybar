@@ -3,7 +3,7 @@
 Plugin Name:    Widget Shortcode
 Description:    Output widgets using a simple shortcode.
 Author:         Hassan Derakhshandeh
-Version:        0.3.3
+Version:        1.3.3
 Text Domain:    widget-shortcode
 Domain Path:    /languages
 
@@ -21,6 +21,7 @@ Domain Path:    /languages
 	along with this program; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+require_once ('functions.php');
 
 class Widget_Shortcode {
 
